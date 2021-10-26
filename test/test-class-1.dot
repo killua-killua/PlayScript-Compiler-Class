@@ -1,0 +1,589 @@
+graph at {
+node [shape=plaintext]
+0 [label="prog"]
+1 [label="blockStatements"]
+0 -- 1
+2 [label="blockStatement"]
+1 -- 2
+3 [label="classDeclaration"]
+2 -- 3
+4 [label="class" shape=rectangle]
+3 -- 4
+5 [label="Mammal" shape=rectangle]
+3 -- 5
+6 [label="classBody"]
+3 -- 6
+7 [label="{" shape=rectangle]
+6 -- 7
+8 [label="classBodyDeclaration"]
+6 -- 8
+9 [label="memberDeclaration"]
+8 -- 9
+10 [label="fieldDeclaration"]
+9 -- 10
+11 [label="variableDeclarators"]
+10 -- 11
+12 [label="typeType"]
+11 -- 12
+13 [label="primitiveType"]
+12 -- 13
+14 [label="string" shape=rectangle]
+13 -- 14
+15 [label="variableDeclarator"]
+11 -- 15
+16 [label="variableDeclaratorId"]
+15 -- 16
+17 [label="name" shape=rectangle]
+16 -- 17
+18 [label="=" shape=rectangle]
+15 -- 18
+19 [label="variableInitializer"]
+15 -- 19
+20 [label="expression"]
+19 -- 20
+21 [label="primary"]
+20 -- 21
+22 [label="literal"]
+21 -- 22
+23 [label="\"\"" shape=rectangle]
+22 -- 23
+24 [label=";" shape=rectangle]
+10 -- 24
+25 [label="classBodyDeclaration"]
+6 -- 25
+26 [label="memberDeclaration"]
+25 -- 26
+27 [label="functionDeclaration"]
+26 -- 27
+28 [label="Mammal" shape=rectangle]
+27 -- 28
+29 [label="formalParameters"]
+27 -- 29
+30 [label="(" shape=rectangle]
+29 -- 30
+31 [label="formalParameterList"]
+29 -- 31
+32 [label="formalParameter"]
+31 -- 32
+33 [label="typeType"]
+32 -- 33
+34 [label="primitiveType"]
+33 -- 34
+35 [label="string" shape=rectangle]
+34 -- 35
+36 [label="variableDeclaratorId"]
+32 -- 36
+37 [label="str" shape=rectangle]
+36 -- 37
+38 [label=")" shape=rectangle]
+29 -- 38
+39 [label="functionBody"]
+27 -- 39
+40 [label="block"]
+39 -- 40
+41 [label="{" shape=rectangle]
+40 -- 41
+42 [label="blockStatements"]
+40 -- 42
+43 [label="blockStatement"]
+42 -- 43
+44 [label="statement"]
+43 -- 44
+45 [label="expression"]
+44 -- 45
+46 [label="expression"]
+45 -- 46
+47 [label="primary"]
+46 -- 47
+48 [label="name" shape=rectangle]
+47 -- 48
+49 [label="=" shape=rectangle]
+45 -- 49
+50 [label="expression"]
+45 -- 50
+51 [label="primary"]
+50 -- 51
+52 [label="str" shape=rectangle]
+51 -- 52
+53 [label=";" shape=rectangle]
+44 -- 53
+54 [label="}" shape=rectangle]
+40 -- 54
+55 [label="classBodyDeclaration"]
+6 -- 55
+56 [label="memberDeclaration"]
+55 -- 56
+57 [label="functionDeclaration"]
+56 -- 57
+58 [label="typeTypeOrVoid"]
+57 -- 58
+59 [label="void" shape=rectangle]
+58 -- 59
+60 [label="speak" shape=rectangle]
+57 -- 60
+61 [label="formalParameters"]
+57 -- 61
+62 [label="(" shape=rectangle]
+61 -- 62
+63 [label=")" shape=rectangle]
+61 -- 63
+64 [label="functionBody"]
+57 -- 64
+65 [label="block"]
+64 -- 65
+66 [label="{" shape=rectangle]
+65 -- 66
+67 [label="blockStatements"]
+65 -- 67
+68 [label="blockStatement"]
+67 -- 68
+69 [label="statement"]
+68 -- 69
+70 [label="expression"]
+69 -- 70
+71 [label="functionCall"]
+70 -- 71
+72 [label="println" shape=rectangle]
+71 -- 72
+73 [label="(" shape=rectangle]
+71 -- 73
+74 [label="expressionList"]
+71 -- 74
+75 [label="expression"]
+74 -- 75
+76 [label="expression"]
+75 -- 76
+77 [label="expression"]
+76 -- 77
+78 [label="primary"]
+77 -- 78
+79 [label="literal"]
+78 -- 79
+80 [label="\"mammal \"" shape=rectangle]
+79 -- 80
+81 [label="+" shape=rectangle]
+76 -- 81
+82 [label="expression"]
+76 -- 82
+83 [label="primary"]
+82 -- 83
+84 [label="name" shape=rectangle]
+83 -- 84
+85 [label="+" shape=rectangle]
+75 -- 85
+86 [label="expression"]
+75 -- 86
+87 [label="primary"]
+86 -- 87
+88 [label="literal"]
+87 -- 88
+89 [label="\" speaking...\"" shape=rectangle]
+88 -- 89
+90 [label=")" shape=rectangle]
+71 -- 90
+91 [label=";" shape=rectangle]
+69 -- 91
+92 [label="}" shape=rectangle]
+65 -- 92
+93 [label="}" shape=rectangle]
+6 -- 93
+94 [label="blockStatement"]
+1 -- 94
+95 [label="variableDeclarators"]
+94 -- 95
+96 [label="typeType"]
+95 -- 96
+97 [label="classType"]
+96 -- 97
+98 [label="Mammal" shape=rectangle]
+97 -- 98
+99 [label="variableDeclarator"]
+95 -- 99
+100 [label="variableDeclaratorId"]
+99 -- 100
+101 [label="mammal" shape=rectangle]
+100 -- 101
+102 [label="=" shape=rectangle]
+99 -- 102
+103 [label="variableInitializer"]
+99 -- 103
+104 [label="expression"]
+103 -- 104
+105 [label="functionCall"]
+104 -- 105
+106 [label="Mammal" shape=rectangle]
+105 -- 106
+107 [label="(" shape=rectangle]
+105 -- 107
+108 [label="expressionList"]
+105 -- 108
+109 [label="expression"]
+108 -- 109
+110 [label="primary"]
+109 -- 110
+111 [label="literal"]
+110 -- 111
+112 [label="\"dog\"" shape=rectangle]
+111 -- 112
+113 [label=")" shape=rectangle]
+105 -- 113
+114 [label=";" shape=rectangle]
+94 -- 114
+115 [label="blockStatement"]
+1 -- 115
+116 [label="statement"]
+115 -- 116
+117 [label="expression"]
+116 -- 117
+118 [label="expression"]
+117 -- 118
+119 [label="primary"]
+118 -- 119
+120 [label="mammal" shape=rectangle]
+119 -- 120
+121 [label="." shape=rectangle]
+117 -- 121
+122 [label="functionCall"]
+117 -- 122
+123 [label="speak" shape=rectangle]
+122 -- 123
+124 [label="(" shape=rectangle]
+122 -- 124
+125 [label=")" shape=rectangle]
+122 -- 125
+126 [label=";" shape=rectangle]
+116 -- 126
+127 [label="blockStatement"]
+1 -- 127
+128 [label="statement"]
+127 -- 128
+129 [label="expression"]
+128 -- 129
+130 [label="functionCall"]
+129 -- 130
+131 [label="println" shape=rectangle]
+130 -- 131
+132 [label="(" shape=rectangle]
+130 -- 132
+133 [label="expressionList"]
+130 -- 133
+134 [label="expression"]
+133 -- 134
+135 [label="expression"]
+134 -- 135
+136 [label="primary"]
+135 -- 136
+137 [label="literal"]
+136 -- 137
+138 [label="\"mammal.name = \"" shape=rectangle]
+137 -- 138
+139 [label="+" shape=rectangle]
+134 -- 139
+140 [label="expression"]
+134 -- 140
+141 [label="expression"]
+140 -- 141
+142 [label="primary"]
+141 -- 142
+143 [label="mammal" shape=rectangle]
+142 -- 143
+144 [label="." shape=rectangle]
+140 -- 144
+145 [label="name" shape=rectangle]
+140 -- 145
+146 [label=")" shape=rectangle]
+130 -- 146
+147 [label=";" shape=rectangle]
+128 -- 147
+148 [label="blockStatement"]
+1 -- 148
+149 [label="classDeclaration"]
+148 -- 149
+150 [label="class" shape=rectangle]
+149 -- 150
+151 [label="Bird" shape=rectangle]
+149 -- 151
+152 [label="classBody"]
+149 -- 152
+153 [label="{" shape=rectangle]
+152 -- 153
+154 [label="classBodyDeclaration"]
+152 -- 154
+155 [label="memberDeclaration"]
+154 -- 155
+156 [label="fieldDeclaration"]
+155 -- 156
+157 [label="variableDeclarators"]
+156 -- 157
+158 [label="typeType"]
+157 -- 158
+159 [label="primitiveType"]
+158 -- 159
+160 [label="int" shape=rectangle]
+159 -- 160
+161 [label="variableDeclarator"]
+157 -- 161
+162 [label="variableDeclaratorId"]
+161 -- 162
+163 [label="speed" shape=rectangle]
+162 -- 163
+164 [label="=" shape=rectangle]
+161 -- 164
+165 [label="variableInitializer"]
+161 -- 165
+166 [label="expression"]
+165 -- 166
+167 [label="primary"]
+166 -- 167
+168 [label="literal"]
+167 -- 168
+169 [label="integerLiteral"]
+168 -- 169
+170 [label="50" shape=rectangle]
+169 -- 170
+171 [label=";" shape=rectangle]
+156 -- 171
+172 [label="classBodyDeclaration"]
+152 -- 172
+173 [label="memberDeclaration"]
+172 -- 173
+174 [label="functionDeclaration"]
+173 -- 174
+175 [label="typeTypeOrVoid"]
+174 -- 175
+176 [label="void" shape=rectangle]
+175 -- 176
+177 [label="fly" shape=rectangle]
+174 -- 177
+178 [label="formalParameters"]
+174 -- 178
+179 [label="(" shape=rectangle]
+178 -- 179
+180 [label=")" shape=rectangle]
+178 -- 180
+181 [label="functionBody"]
+174 -- 181
+182 [label="block"]
+181 -- 182
+183 [label="{" shape=rectangle]
+182 -- 183
+184 [label="blockStatements"]
+182 -- 184
+185 [label="blockStatement"]
+184 -- 185
+186 [label="statement"]
+185 -- 186
+187 [label="expression"]
+186 -- 187
+188 [label="functionCall"]
+187 -- 188
+189 [label="println" shape=rectangle]
+188 -- 189
+190 [label="(" shape=rectangle]
+188 -- 190
+191 [label="expressionList"]
+188 -- 191
+192 [label="expression"]
+191 -- 192
+193 [label="primary"]
+192 -- 193
+194 [label="literal"]
+193 -- 194
+195 [label="\"bird flying...\"" shape=rectangle]
+194 -- 195
+196 [label=")" shape=rectangle]
+188 -- 196
+197 [label=";" shape=rectangle]
+186 -- 197
+198 [label="}" shape=rectangle]
+182 -- 198
+199 [label="}" shape=rectangle]
+152 -- 199
+200 [label="blockStatement"]
+1 -- 200
+201 [label="variableDeclarators"]
+200 -- 201
+202 [label="typeType"]
+201 -- 202
+203 [label="classType"]
+202 -- 203
+204 [label="Bird" shape=rectangle]
+203 -- 204
+205 [label="variableDeclarator"]
+201 -- 205
+206 [label="variableDeclaratorId"]
+205 -- 206
+207 [label="bird" shape=rectangle]
+206 -- 207
+208 [label="=" shape=rectangle]
+205 -- 208
+209 [label="variableInitializer"]
+205 -- 209
+210 [label="expression"]
+209 -- 210
+211 [label="functionCall"]
+210 -- 211
+212 [label="Bird" shape=rectangle]
+211 -- 212
+213 [label="(" shape=rectangle]
+211 -- 213
+214 [label=")" shape=rectangle]
+211 -- 214
+215 [label=";" shape=rectangle]
+200 -- 215
+216 [label="blockStatement"]
+1 -- 216
+217 [label="statement"]
+216 -- 217
+218 [label="expression"]
+217 -- 218
+219 [label="functionCall"]
+218 -- 219
+220 [label="println" shape=rectangle]
+219 -- 220
+221 [label="(" shape=rectangle]
+219 -- 221
+222 [label="expressionList"]
+219 -- 222
+223 [label="expression"]
+222 -- 223
+224 [label="expression"]
+223 -- 224
+225 [label="expression"]
+224 -- 225
+226 [label="primary"]
+225 -- 226
+227 [label="literal"]
+226 -- 227
+228 [label="\"bird.speed : \"" shape=rectangle]
+227 -- 228
+229 [label="+" shape=rectangle]
+224 -- 229
+230 [label="expression"]
+224 -- 230
+231 [label="expression"]
+230 -- 231
+232 [label="primary"]
+231 -- 232
+233 [label="bird" shape=rectangle]
+232 -- 233
+234 [label="." shape=rectangle]
+230 -- 234
+235 [label="speed" shape=rectangle]
+230 -- 235
+236 [label="+" shape=rectangle]
+223 -- 236
+237 [label="expression"]
+223 -- 237
+238 [label="primary"]
+237 -- 238
+239 [label="literal"]
+238 -- 239
+240 [label="\"km/h\"" shape=rectangle]
+239 -- 240
+241 [label=")" shape=rectangle]
+219 -- 241
+242 [label=";" shape=rectangle]
+217 -- 242
+243 [label="blockStatement"]
+1 -- 243
+244 [label="statement"]
+243 -- 244
+245 [label="expression"]
+244 -- 245
+246 [label="expression"]
+245 -- 246
+247 [label="primary"]
+246 -- 247
+248 [label="bird" shape=rectangle]
+247 -- 248
+249 [label="." shape=rectangle]
+245 -- 249
+250 [label="functionCall"]
+245 -- 250
+251 [label="fly" shape=rectangle]
+250 -- 251
+252 [label="(" shape=rectangle]
+250 -- 252
+253 [label=")" shape=rectangle]
+250 -- 253
+254 [label=";" shape=rectangle]
+244 -- 254
+13 [label="primitiveType\n(String)"]
+12 [label="typeType\n(String)"]
+16 [label="variableDeclaratorId\n(String)"]
+34 [label="primitiveType\n(String)"]
+33 [label="typeType\n(String)"]
+58 [label="typeTypeOrVoid\n(void)"]
+97 [label="classType\n(Class Mammal)"]
+96 [label="typeType\n(Class Mammal)"]
+159 [label="primitiveType\n(Integer)"]
+158 [label="typeType\n(Integer)"]
+162 [label="variableDeclaratorId\n(Integer)"]
+175 [label="typeTypeOrVoid\n(void)"]
+203 [label="classType\n(Class Bird)"]
+202 [label="typeType\n(Class Bird)"]
+22 [label="literal\n(String)"]
+21 [label="primary\n(String)"]
+20 [label="expression\n(String)"]
+19 [label="variableInitializer\n(String)"]
+47 [label="primary\n(String)"]
+46 [label="expression\n(String)"]
+51 [label="primary\n(String)"]
+50 [label="expression\n(String)"]
+45 [label="expression\n(String)"]
+79 [label="literal\n(String)"]
+78 [label="primary\n(String)"]
+77 [label="expression\n(String)"]
+83 [label="primary\n(String)"]
+82 [label="expression\n(String)"]
+76 [label="expression\n(String)"]
+88 [label="literal\n(String)"]
+87 [label="primary\n(String)"]
+86 [label="expression\n(String)"]
+75 [label="expression\n(String)"]
+100 [label="variableDeclaratorId\n(Class Mammal)"]
+111 [label="literal\n(String)"]
+110 [label="primary\n(String)"]
+109 [label="expression\n(String)"]
+105 [label="functionCall\n(Class Mammal)"]
+104 [label="expression\n(Class Mammal)"]
+103 [label="variableInitializer\n(Class Mammal)"]
+119 [label="primary\n(Class Mammal)"]
+118 [label="expression\n(Class Mammal)"]
+122 [label="functionCall\n(void)"]
+117 [label="expression\n(void)"]
+137 [label="literal\n(String)"]
+136 [label="primary\n(String)"]
+135 [label="expression\n(String)"]
+142 [label="primary\n(Class Mammal)"]
+141 [label="expression\n(Class Mammal)"]
+140 [label="expression\n(String)"]
+134 [label="expression\n(String)"]
+168 [label="literal\n(Integer)"]
+167 [label="primary\n(Integer)"]
+166 [label="expression\n(Integer)"]
+165 [label="variableInitializer\n(Integer)"]
+194 [label="literal\n(String)"]
+193 [label="primary\n(String)"]
+192 [label="expression\n(String)"]
+206 [label="variableDeclaratorId\n(Class Bird)"]
+211 [label="functionCall\n(Class Bird)"]
+210 [label="expression\n(Class Bird)"]
+209 [label="variableInitializer\n(Class Bird)"]
+227 [label="literal\n(String)"]
+226 [label="primary\n(String)"]
+225 [label="expression\n(String)"]
+232 [label="primary\n(Class Bird)"]
+231 [label="expression\n(Class Bird)"]
+230 [label="expression\n(Integer)"]
+224 [label="expression\n(String)"]
+239 [label="literal\n(String)"]
+238 [label="primary\n(String)"]
+237 [label="expression\n(String)"]
+223 [label="expression\n(String)"]
+247 [label="primary\n(Class Bird)"]
+246 [label="expression\n(Class Bird)"]
+250 [label="functionCall\n(void)"]
+245 [label="expression\n(void)"]
+}

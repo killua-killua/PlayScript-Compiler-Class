@@ -1,0 +1,1627 @@
+graph at {
+node [shape=plaintext]
+0 [label="prog"]
+1 [label="blockStatements"]
+0 -- 1
+2 [label="blockStatement"]
+1 -- 2
+3 [label="classDeclaration"]
+2 -- 3
+4 [label="class" shape=rectangle]
+3 -- 4
+5 [label="ListNode" shape=rectangle]
+3 -- 5
+6 [label="classBody"]
+3 -- 6
+7 [label="{" shape=rectangle]
+6 -- 7
+8 [label="classBodyDeclaration"]
+6 -- 8
+9 [label="memberDeclaration"]
+8 -- 9
+10 [label="fieldDeclaration"]
+9 -- 10
+11 [label="variableDeclarators"]
+10 -- 11
+12 [label="typeType"]
+11 -- 12
+13 [label="primitiveType"]
+12 -- 13
+14 [label="int" shape=rectangle]
+13 -- 14
+15 [label="variableDeclarator"]
+11 -- 15
+16 [label="variableDeclaratorId"]
+15 -- 16
+17 [label="value" shape=rectangle]
+16 -- 17
+18 [label=";" shape=rectangle]
+10 -- 18
+19 [label="classBodyDeclaration"]
+6 -- 19
+20 [label="memberDeclaration"]
+19 -- 20
+21 [label="fieldDeclaration"]
+20 -- 21
+22 [label="variableDeclarators"]
+21 -- 22
+23 [label="typeType"]
+22 -- 23
+24 [label="classType"]
+23 -- 24
+25 [label="ListNode" shape=rectangle]
+24 -- 25
+26 [label="variableDeclarator"]
+22 -- 26
+27 [label="variableDeclaratorId"]
+26 -- 27
+28 [label="next" shape=rectangle]
+27 -- 28
+29 [label=";" shape=rectangle]
+21 -- 29
+30 [label="classBodyDeclaration"]
+6 -- 30
+31 [label="memberDeclaration"]
+30 -- 31
+32 [label="functionDeclaration"]
+31 -- 32
+33 [label="ListNode" shape=rectangle]
+32 -- 33
+34 [label="formalParameters"]
+32 -- 34
+35 [label="(" shape=rectangle]
+34 -- 35
+36 [label="formalParameterList"]
+34 -- 36
+37 [label="formalParameter"]
+36 -- 37
+38 [label="typeType"]
+37 -- 38
+39 [label="primitiveType"]
+38 -- 39
+40 [label="int" shape=rectangle]
+39 -- 40
+41 [label="variableDeclaratorId"]
+37 -- 41
+42 [label="v" shape=rectangle]
+41 -- 42
+43 [label=")" shape=rectangle]
+34 -- 43
+44 [label="functionBody"]
+32 -- 44
+45 [label="block"]
+44 -- 45
+46 [label="{" shape=rectangle]
+45 -- 46
+47 [label="blockStatements"]
+45 -- 47
+48 [label="blockStatement"]
+47 -- 48
+49 [label="statement"]
+48 -- 49
+50 [label="expression"]
+49 -- 50
+51 [label="expression"]
+50 -- 51
+52 [label="primary"]
+51 -- 52
+53 [label="value" shape=rectangle]
+52 -- 53
+54 [label="=" shape=rectangle]
+50 -- 54
+55 [label="expression"]
+50 -- 55
+56 [label="primary"]
+55 -- 56
+57 [label="v" shape=rectangle]
+56 -- 57
+58 [label=";" shape=rectangle]
+49 -- 58
+59 [label="}" shape=rectangle]
+45 -- 59
+60 [label="}" shape=rectangle]
+6 -- 60
+61 [label="blockStatement"]
+1 -- 61
+62 [label="classDeclaration"]
+61 -- 62
+63 [label="class" shape=rectangle]
+62 -- 63
+64 [label="LinkedList" shape=rectangle]
+62 -- 64
+65 [label="classBody"]
+62 -- 65
+66 [label="{" shape=rectangle]
+65 -- 66
+67 [label="classBodyDeclaration"]
+65 -- 67
+68 [label="memberDeclaration"]
+67 -- 68
+69 [label="fieldDeclaration"]
+68 -- 69
+70 [label="variableDeclarators"]
+69 -- 70
+71 [label="typeType"]
+70 -- 71
+72 [label="classType"]
+71 -- 72
+73 [label="ListNode" shape=rectangle]
+72 -- 73
+74 [label="variableDeclarator"]
+70 -- 74
+75 [label="variableDeclaratorId"]
+74 -- 75
+76 [label="start" shape=rectangle]
+75 -- 76
+77 [label=";" shape=rectangle]
+69 -- 77
+78 [label="classBodyDeclaration"]
+65 -- 78
+79 [label="memberDeclaration"]
+78 -- 79
+80 [label="fieldDeclaration"]
+79 -- 80
+81 [label="variableDeclarators"]
+80 -- 81
+82 [label="typeType"]
+81 -- 82
+83 [label="classType"]
+82 -- 83
+84 [label="ListNode" shape=rectangle]
+83 -- 84
+85 [label="variableDeclarator"]
+81 -- 85
+86 [label="variableDeclaratorId"]
+85 -- 86
+87 [label="end" shape=rectangle]
+86 -- 87
+88 [label=";" shape=rectangle]
+80 -- 88
+89 [label="classBodyDeclaration"]
+65 -- 89
+90 [label="memberDeclaration"]
+89 -- 90
+91 [label="functionDeclaration"]
+90 -- 91
+92 [label="typeTypeOrVoid"]
+91 -- 92
+93 [label="void" shape=rectangle]
+92 -- 93
+94 [label="add" shape=rectangle]
+91 -- 94
+95 [label="formalParameters"]
+91 -- 95
+96 [label="(" shape=rectangle]
+95 -- 96
+97 [label="formalParameterList"]
+95 -- 97
+98 [label="formalParameter"]
+97 -- 98
+99 [label="typeType"]
+98 -- 99
+100 [label="primitiveType"]
+99 -- 100
+101 [label="int" shape=rectangle]
+100 -- 101
+102 [label="variableDeclaratorId"]
+98 -- 102
+103 [label="value" shape=rectangle]
+102 -- 103
+104 [label=")" shape=rectangle]
+95 -- 104
+105 [label="functionBody"]
+91 -- 105
+106 [label="block"]
+105 -- 106
+107 [label="{" shape=rectangle]
+106 -- 107
+108 [label="blockStatements"]
+106 -- 108
+109 [label="blockStatement"]
+108 -- 109
+110 [label="variableDeclarators"]
+109 -- 110
+111 [label="typeType"]
+110 -- 111
+112 [label="classType"]
+111 -- 112
+113 [label="ListNode" shape=rectangle]
+112 -- 113
+114 [label="variableDeclarator"]
+110 -- 114
+115 [label="variableDeclaratorId"]
+114 -- 115
+116 [label="node" shape=rectangle]
+115 -- 116
+117 [label="=" shape=rectangle]
+114 -- 117
+118 [label="variableInitializer"]
+114 -- 118
+119 [label="expression"]
+118 -- 119
+120 [label="functionCall"]
+119 -- 120
+121 [label="ListNode" shape=rectangle]
+120 -- 121
+122 [label="(" shape=rectangle]
+120 -- 122
+123 [label="expressionList"]
+120 -- 123
+124 [label="expression"]
+123 -- 124
+125 [label="primary"]
+124 -- 125
+126 [label="value" shape=rectangle]
+125 -- 126
+127 [label=")" shape=rectangle]
+120 -- 127
+128 [label=";" shape=rectangle]
+109 -- 128
+129 [label="blockStatement"]
+108 -- 129
+130 [label="statement"]
+129 -- 130
+131 [label="if" shape=rectangle]
+130 -- 131
+132 [label="parExpression"]
+130 -- 132
+133 [label="(" shape=rectangle]
+132 -- 133
+134 [label="expression"]
+132 -- 134
+135 [label="expression"]
+134 -- 135
+136 [label="primary"]
+135 -- 136
+137 [label="start" shape=rectangle]
+136 -- 137
+138 [label="==" shape=rectangle]
+134 -- 138
+139 [label="expression"]
+134 -- 139
+140 [label="primary"]
+139 -- 140
+141 [label="literal"]
+140 -- 141
+142 [label="null" shape=rectangle]
+141 -- 142
+143 [label=")" shape=rectangle]
+132 -- 143
+144 [label="statement"]
+130 -- 144
+145 [label="block"]
+144 -- 145
+146 [label="{" shape=rectangle]
+145 -- 146
+147 [label="blockStatements"]
+145 -- 147
+148 [label="blockStatement"]
+147 -- 148
+149 [label="statement"]
+148 -- 149
+150 [label="expression"]
+149 -- 150
+151 [label="expression"]
+150 -- 151
+152 [label="primary"]
+151 -- 152
+153 [label="start" shape=rectangle]
+152 -- 153
+154 [label="=" shape=rectangle]
+150 -- 154
+155 [label="expression"]
+150 -- 155
+156 [label="primary"]
+155 -- 156
+157 [label="node" shape=rectangle]
+156 -- 157
+158 [label=";" shape=rectangle]
+149 -- 158
+159 [label="blockStatement"]
+147 -- 159
+160 [label="statement"]
+159 -- 160
+161 [label="expression"]
+160 -- 161
+162 [label="expression"]
+161 -- 162
+163 [label="primary"]
+162 -- 163
+164 [label="end" shape=rectangle]
+163 -- 164
+165 [label="=" shape=rectangle]
+161 -- 165
+166 [label="expression"]
+161 -- 166
+167 [label="primary"]
+166 -- 167
+168 [label="node" shape=rectangle]
+167 -- 168
+169 [label=";" shape=rectangle]
+160 -- 169
+170 [label="}" shape=rectangle]
+145 -- 170
+171 [label="else" shape=rectangle]
+130 -- 171
+172 [label="statement"]
+130 -- 172
+173 [label="block"]
+172 -- 173
+174 [label="{" shape=rectangle]
+173 -- 174
+175 [label="blockStatements"]
+173 -- 175
+176 [label="blockStatement"]
+175 -- 176
+177 [label="statement"]
+176 -- 177
+178 [label="expression"]
+177 -- 178
+179 [label="expression"]
+178 -- 179
+180 [label="expression"]
+179 -- 180
+181 [label="primary"]
+180 -- 181
+182 [label="end" shape=rectangle]
+181 -- 182
+183 [label="." shape=rectangle]
+179 -- 183
+184 [label="next" shape=rectangle]
+179 -- 184
+185 [label="=" shape=rectangle]
+178 -- 185
+186 [label="expression"]
+178 -- 186
+187 [label="primary"]
+186 -- 187
+188 [label="node" shape=rectangle]
+187 -- 188
+189 [label=";" shape=rectangle]
+177 -- 189
+190 [label="blockStatement"]
+175 -- 190
+191 [label="statement"]
+190 -- 191
+192 [label="expression"]
+191 -- 192
+193 [label="expression"]
+192 -- 193
+194 [label="primary"]
+193 -- 194
+195 [label="end" shape=rectangle]
+194 -- 195
+196 [label="=" shape=rectangle]
+192 -- 196
+197 [label="expression"]
+192 -- 197
+198 [label="primary"]
+197 -- 198
+199 [label="node" shape=rectangle]
+198 -- 199
+200 [label=";" shape=rectangle]
+191 -- 200
+201 [label="}" shape=rectangle]
+173 -- 201
+202 [label="}" shape=rectangle]
+106 -- 202
+203 [label="classBodyDeclaration"]
+65 -- 203
+204 [label="memberDeclaration"]
+203 -- 204
+205 [label="functionDeclaration"]
+204 -- 205
+206 [label="typeTypeOrVoid"]
+205 -- 206
+207 [label="void" shape=rectangle]
+206 -- 207
+208 [label="dump" shape=rectangle]
+205 -- 208
+209 [label="formalParameters"]
+205 -- 209
+210 [label="(" shape=rectangle]
+209 -- 210
+211 [label=")" shape=rectangle]
+209 -- 211
+212 [label="functionBody"]
+205 -- 212
+213 [label="block"]
+212 -- 213
+214 [label="{" shape=rectangle]
+213 -- 214
+215 [label="blockStatements"]
+213 -- 215
+216 [label="blockStatement"]
+215 -- 216
+217 [label="variableDeclarators"]
+216 -- 217
+218 [label="typeType"]
+217 -- 218
+219 [label="classType"]
+218 -- 219
+220 [label="ListNode" shape=rectangle]
+219 -- 220
+221 [label="variableDeclarator"]
+217 -- 221
+222 [label="variableDeclaratorId"]
+221 -- 222
+223 [label="node" shape=rectangle]
+222 -- 223
+224 [label="=" shape=rectangle]
+221 -- 224
+225 [label="variableInitializer"]
+221 -- 225
+226 [label="expression"]
+225 -- 226
+227 [label="primary"]
+226 -- 227
+228 [label="start" shape=rectangle]
+227 -- 228
+229 [label=";" shape=rectangle]
+216 -- 229
+230 [label="blockStatement"]
+215 -- 230
+231 [label="statement"]
+230 -- 231
+232 [label="while" shape=rectangle]
+231 -- 232
+233 [label="parExpression"]
+231 -- 233
+234 [label="(" shape=rectangle]
+233 -- 234
+235 [label="expression"]
+233 -- 235
+236 [label="expression"]
+235 -- 236
+237 [label="primary"]
+236 -- 237
+238 [label="node" shape=rectangle]
+237 -- 238
+239 [label="!=" shape=rectangle]
+235 -- 239
+240 [label="expression"]
+235 -- 240
+241 [label="primary"]
+240 -- 241
+242 [label="literal"]
+241 -- 242
+243 [label="null" shape=rectangle]
+242 -- 243
+244 [label=")" shape=rectangle]
+233 -- 244
+245 [label="statement"]
+231 -- 245
+246 [label="block"]
+245 -- 246
+247 [label="{" shape=rectangle]
+246 -- 247
+248 [label="blockStatements"]
+246 -- 248
+249 [label="blockStatement"]
+248 -- 249
+250 [label="statement"]
+249 -- 250
+251 [label="expression"]
+250 -- 251
+252 [label="functionCall"]
+251 -- 252
+253 [label="println" shape=rectangle]
+252 -- 253
+254 [label="(" shape=rectangle]
+252 -- 254
+255 [label="expressionList"]
+252 -- 255
+256 [label="expression"]
+255 -- 256
+257 [label="expression"]
+256 -- 257
+258 [label="primary"]
+257 -- 258
+259 [label="node" shape=rectangle]
+258 -- 259
+260 [label="." shape=rectangle]
+256 -- 260
+261 [label="value" shape=rectangle]
+256 -- 261
+262 [label=")" shape=rectangle]
+252 -- 262
+263 [label=";" shape=rectangle]
+250 -- 263
+264 [label="blockStatement"]
+248 -- 264
+265 [label="statement"]
+264 -- 265
+266 [label="expression"]
+265 -- 266
+267 [label="expression"]
+266 -- 267
+268 [label="primary"]
+267 -- 268
+269 [label="node" shape=rectangle]
+268 -- 269
+270 [label="=" shape=rectangle]
+266 -- 270
+271 [label="expression"]
+266 -- 271
+272 [label="expression"]
+271 -- 272
+273 [label="primary"]
+272 -- 273
+274 [label="node" shape=rectangle]
+273 -- 274
+275 [label="." shape=rectangle]
+271 -- 275
+276 [label="next" shape=rectangle]
+271 -- 276
+277 [label=";" shape=rectangle]
+265 -- 277
+278 [label="}" shape=rectangle]
+246 -- 278
+279 [label="}" shape=rectangle]
+213 -- 279
+280 [label="classBodyDeclaration"]
+65 -- 280
+281 [label="memberDeclaration"]
+280 -- 281
+282 [label="functionDeclaration"]
+281 -- 282
+283 [label="typeTypeOrVoid"]
+282 -- 283
+284 [label="typeType"]
+283 -- 284
+285 [label="classType"]
+284 -- 285
+286 [label="LinkedList" shape=rectangle]
+285 -- 286
+287 [label="map" shape=rectangle]
+282 -- 287
+288 [label="formalParameters"]
+282 -- 288
+289 [label="(" shape=rectangle]
+288 -- 289
+290 [label="formalParameterList"]
+288 -- 290
+291 [label="formalParameter"]
+290 -- 291
+292 [label="typeType"]
+291 -- 292
+293 [label="functionType"]
+292 -- 293
+294 [label="function" shape=rectangle]
+293 -- 294
+295 [label="typeTypeOrVoid"]
+293 -- 295
+296 [label="typeType"]
+295 -- 296
+297 [label="primitiveType"]
+296 -- 297
+298 [label="int" shape=rectangle]
+297 -- 298
+299 [label="(" shape=rectangle]
+293 -- 299
+300 [label="typeList"]
+293 -- 300
+301 [label="typeType"]
+300 -- 301
+302 [label="primitiveType"]
+301 -- 302
+303 [label="int" shape=rectangle]
+302 -- 303
+304 [label=")" shape=rectangle]
+293 -- 304
+305 [label="variableDeclaratorId"]
+291 -- 305
+306 [label="fun" shape=rectangle]
+305 -- 306
+307 [label=")" shape=rectangle]
+288 -- 307
+308 [label="functionBody"]
+282 -- 308
+309 [label="block"]
+308 -- 309
+310 [label="{" shape=rectangle]
+309 -- 310
+311 [label="blockStatements"]
+309 -- 311
+312 [label="blockStatement"]
+311 -- 312
+313 [label="variableDeclarators"]
+312 -- 313
+314 [label="typeType"]
+313 -- 314
+315 [label="classType"]
+314 -- 315
+316 [label="ListNode" shape=rectangle]
+315 -- 316
+317 [label="variableDeclarator"]
+313 -- 317
+318 [label="variableDeclaratorId"]
+317 -- 318
+319 [label="node" shape=rectangle]
+318 -- 319
+320 [label="=" shape=rectangle]
+317 -- 320
+321 [label="variableInitializer"]
+317 -- 321
+322 [label="expression"]
+321 -- 322
+323 [label="primary"]
+322 -- 323
+324 [label="start" shape=rectangle]
+323 -- 324
+325 [label=";" shape=rectangle]
+312 -- 325
+326 [label="blockStatement"]
+311 -- 326
+327 [label="variableDeclarators"]
+326 -- 327
+328 [label="typeType"]
+327 -- 328
+329 [label="classType"]
+328 -- 329
+330 [label="LinkedList" shape=rectangle]
+329 -- 330
+331 [label="variableDeclarator"]
+327 -- 331
+332 [label="variableDeclaratorId"]
+331 -- 332
+333 [label="newList" shape=rectangle]
+332 -- 333
+334 [label="=" shape=rectangle]
+331 -- 334
+335 [label="variableInitializer"]
+331 -- 335
+336 [label="expression"]
+335 -- 336
+337 [label="functionCall"]
+336 -- 337
+338 [label="LinkedList" shape=rectangle]
+337 -- 338
+339 [label="(" shape=rectangle]
+337 -- 339
+340 [label=")" shape=rectangle]
+337 -- 340
+341 [label=";" shape=rectangle]
+326 -- 341
+342 [label="blockStatement"]
+311 -- 342
+343 [label="statement"]
+342 -- 343
+344 [label="while" shape=rectangle]
+343 -- 344
+345 [label="parExpression"]
+343 -- 345
+346 [label="(" shape=rectangle]
+345 -- 346
+347 [label="expression"]
+345 -- 347
+348 [label="expression"]
+347 -- 348
+349 [label="primary"]
+348 -- 349
+350 [label="node" shape=rectangle]
+349 -- 350
+351 [label="!=" shape=rectangle]
+347 -- 351
+352 [label="expression"]
+347 -- 352
+353 [label="primary"]
+352 -- 353
+354 [label="literal"]
+353 -- 354
+355 [label="null" shape=rectangle]
+354 -- 355
+356 [label=")" shape=rectangle]
+345 -- 356
+357 [label="statement"]
+343 -- 357
+358 [label="block"]
+357 -- 358
+359 [label="{" shape=rectangle]
+358 -- 359
+360 [label="blockStatements"]
+358 -- 360
+361 [label="blockStatement"]
+360 -- 361
+362 [label="variableDeclarators"]
+361 -- 362
+363 [label="typeType"]
+362 -- 363
+364 [label="primitiveType"]
+363 -- 364
+365 [label="int" shape=rectangle]
+364 -- 365
+366 [label="variableDeclarator"]
+362 -- 366
+367 [label="variableDeclaratorId"]
+366 -- 367
+368 [label="newValue" shape=rectangle]
+367 -- 368
+369 [label="=" shape=rectangle]
+366 -- 369
+370 [label="variableInitializer"]
+366 -- 370
+371 [label="expression"]
+370 -- 371
+372 [label="functionCall"]
+371 -- 372
+373 [label="fun" shape=rectangle]
+372 -- 373
+374 [label="(" shape=rectangle]
+372 -- 374
+375 [label="expressionList"]
+372 -- 375
+376 [label="expression"]
+375 -- 376
+377 [label="expression"]
+376 -- 377
+378 [label="primary"]
+377 -- 378
+379 [label="node" shape=rectangle]
+378 -- 379
+380 [label="." shape=rectangle]
+376 -- 380
+381 [label="value" shape=rectangle]
+376 -- 381
+382 [label=")" shape=rectangle]
+372 -- 382
+383 [label=";" shape=rectangle]
+361 -- 383
+384 [label="blockStatement"]
+360 -- 384
+385 [label="statement"]
+384 -- 385
+386 [label="expression"]
+385 -- 386
+387 [label="expression"]
+386 -- 387
+388 [label="primary"]
+387 -- 388
+389 [label="newList" shape=rectangle]
+388 -- 389
+390 [label="." shape=rectangle]
+386 -- 390
+391 [label="functionCall"]
+386 -- 391
+392 [label="add" shape=rectangle]
+391 -- 392
+393 [label="(" shape=rectangle]
+391 -- 393
+394 [label="expressionList"]
+391 -- 394
+395 [label="expression"]
+394 -- 395
+396 [label="primary"]
+395 -- 396
+397 [label="newValue" shape=rectangle]
+396 -- 397
+398 [label=")" shape=rectangle]
+391 -- 398
+399 [label=";" shape=rectangle]
+385 -- 399
+400 [label="blockStatement"]
+360 -- 400
+401 [label="statement"]
+400 -- 401
+402 [label="expression"]
+401 -- 402
+403 [label="expression"]
+402 -- 403
+404 [label="primary"]
+403 -- 404
+405 [label="node" shape=rectangle]
+404 -- 405
+406 [label="=" shape=rectangle]
+402 -- 406
+407 [label="expression"]
+402 -- 407
+408 [label="expression"]
+407 -- 408
+409 [label="primary"]
+408 -- 409
+410 [label="node" shape=rectangle]
+409 -- 410
+411 [label="." shape=rectangle]
+407 -- 411
+412 [label="next" shape=rectangle]
+407 -- 412
+413 [label=";" shape=rectangle]
+401 -- 413
+414 [label="}" shape=rectangle]
+358 -- 414
+415 [label="blockStatement"]
+311 -- 415
+416 [label="statement"]
+415 -- 416
+417 [label="return" shape=rectangle]
+416 -- 417
+418 [label="expression"]
+416 -- 418
+419 [label="primary"]
+418 -- 419
+420 [label="newList" shape=rectangle]
+419 -- 420
+421 [label=";" shape=rectangle]
+416 -- 421
+422 [label="}" shape=rectangle]
+309 -- 422
+423 [label="}" shape=rectangle]
+65 -- 423
+424 [label="blockStatement"]
+1 -- 424
+425 [label="functionDeclaration"]
+424 -- 425
+426 [label="typeTypeOrVoid"]
+425 -- 426
+427 [label="typeType"]
+426 -- 427
+428 [label="primitiveType"]
+427 -- 428
+429 [label="int" shape=rectangle]
+428 -- 429
+430 [label="square" shape=rectangle]
+425 -- 430
+431 [label="formalParameters"]
+425 -- 431
+432 [label="(" shape=rectangle]
+431 -- 432
+433 [label="formalParameterList"]
+431 -- 433
+434 [label="formalParameter"]
+433 -- 434
+435 [label="typeType"]
+434 -- 435
+436 [label="primitiveType"]
+435 -- 436
+437 [label="int" shape=rectangle]
+436 -- 437
+438 [label="variableDeclaratorId"]
+434 -- 438
+439 [label="value" shape=rectangle]
+438 -- 439
+440 [label=")" shape=rectangle]
+431 -- 440
+441 [label="functionBody"]
+425 -- 441
+442 [label="block"]
+441 -- 442
+443 [label="{" shape=rectangle]
+442 -- 443
+444 [label="blockStatements"]
+442 -- 444
+445 [label="blockStatement"]
+444 -- 445
+446 [label="statement"]
+445 -- 446
+447 [label="return" shape=rectangle]
+446 -- 447
+448 [label="expression"]
+446 -- 448
+449 [label="expression"]
+448 -- 449
+450 [label="primary"]
+449 -- 450
+451 [label="value" shape=rectangle]
+450 -- 451
+452 [label="*" shape=rectangle]
+448 -- 452
+453 [label="expression"]
+448 -- 453
+454 [label="primary"]
+453 -- 454
+455 [label="value" shape=rectangle]
+454 -- 455
+456 [label=";" shape=rectangle]
+446 -- 456
+457 [label="}" shape=rectangle]
+442 -- 457
+458 [label="blockStatement"]
+1 -- 458
+459 [label="functionDeclaration"]
+458 -- 459
+460 [label="typeTypeOrVoid"]
+459 -- 460
+461 [label="typeType"]
+460 -- 461
+462 [label="primitiveType"]
+461 -- 462
+463 [label="int" shape=rectangle]
+462 -- 463
+464 [label="addOne" shape=rectangle]
+459 -- 464
+465 [label="formalParameters"]
+459 -- 465
+466 [label="(" shape=rectangle]
+465 -- 466
+467 [label="formalParameterList"]
+465 -- 467
+468 [label="formalParameter"]
+467 -- 468
+469 [label="typeType"]
+468 -- 469
+470 [label="primitiveType"]
+469 -- 470
+471 [label="int" shape=rectangle]
+470 -- 471
+472 [label="variableDeclaratorId"]
+468 -- 472
+473 [label="value" shape=rectangle]
+472 -- 473
+474 [label=")" shape=rectangle]
+465 -- 474
+475 [label="functionBody"]
+459 -- 475
+476 [label="block"]
+475 -- 476
+477 [label="{" shape=rectangle]
+476 -- 477
+478 [label="blockStatements"]
+476 -- 478
+479 [label="blockStatement"]
+478 -- 479
+480 [label="statement"]
+479 -- 480
+481 [label="return" shape=rectangle]
+480 -- 481
+482 [label="expression"]
+480 -- 482
+483 [label="expression"]
+482 -- 483
+484 [label="primary"]
+483 -- 484
+485 [label="value" shape=rectangle]
+484 -- 485
+486 [label="+" shape=rectangle]
+482 -- 486
+487 [label="expression"]
+482 -- 487
+488 [label="primary"]
+487 -- 488
+489 [label="literal"]
+488 -- 489
+490 [label="integerLiteral"]
+489 -- 490
+491 [label="1" shape=rectangle]
+490 -- 491
+492 [label=";" shape=rectangle]
+480 -- 492
+493 [label="}" shape=rectangle]
+476 -- 493
+494 [label="blockStatement"]
+1 -- 494
+495 [label="variableDeclarators"]
+494 -- 495
+496 [label="typeType"]
+495 -- 496
+497 [label="classType"]
+496 -- 497
+498 [label="LinkedList" shape=rectangle]
+497 -- 498
+499 [label="variableDeclarator"]
+495 -- 499
+500 [label="variableDeclaratorId"]
+499 -- 500
+501 [label="list" shape=rectangle]
+500 -- 501
+502 [label="=" shape=rectangle]
+499 -- 502
+503 [label="variableInitializer"]
+499 -- 503
+504 [label="expression"]
+503 -- 504
+505 [label="functionCall"]
+504 -- 505
+506 [label="LinkedList" shape=rectangle]
+505 -- 506
+507 [label="(" shape=rectangle]
+505 -- 507
+508 [label=")" shape=rectangle]
+505 -- 508
+509 [label=";" shape=rectangle]
+494 -- 509
+510 [label="blockStatement"]
+1 -- 510
+511 [label="statement"]
+510 -- 511
+512 [label="expression"]
+511 -- 512
+513 [label="expression"]
+512 -- 513
+514 [label="primary"]
+513 -- 514
+515 [label="list" shape=rectangle]
+514 -- 515
+516 [label="." shape=rectangle]
+512 -- 516
+517 [label="functionCall"]
+512 -- 517
+518 [label="add" shape=rectangle]
+517 -- 518
+519 [label="(" shape=rectangle]
+517 -- 519
+520 [label="expressionList"]
+517 -- 520
+521 [label="expression"]
+520 -- 521
+522 [label="primary"]
+521 -- 522
+523 [label="literal"]
+522 -- 523
+524 [label="integerLiteral"]
+523 -- 524
+525 [label="2" shape=rectangle]
+524 -- 525
+526 [label=")" shape=rectangle]
+517 -- 526
+527 [label=";" shape=rectangle]
+511 -- 527
+528 [label="blockStatement"]
+1 -- 528
+529 [label="statement"]
+528 -- 529
+530 [label="expression"]
+529 -- 530
+531 [label="expression"]
+530 -- 531
+532 [label="primary"]
+531 -- 532
+533 [label="list" shape=rectangle]
+532 -- 533
+534 [label="." shape=rectangle]
+530 -- 534
+535 [label="functionCall"]
+530 -- 535
+536 [label="add" shape=rectangle]
+535 -- 536
+537 [label="(" shape=rectangle]
+535 -- 537
+538 [label="expressionList"]
+535 -- 538
+539 [label="expression"]
+538 -- 539
+540 [label="primary"]
+539 -- 540
+541 [label="literal"]
+540 -- 541
+542 [label="integerLiteral"]
+541 -- 542
+543 [label="3" shape=rectangle]
+542 -- 543
+544 [label=")" shape=rectangle]
+535 -- 544
+545 [label=";" shape=rectangle]
+529 -- 545
+546 [label="blockStatement"]
+1 -- 546
+547 [label="statement"]
+546 -- 547
+548 [label="expression"]
+547 -- 548
+549 [label="expression"]
+548 -- 549
+550 [label="primary"]
+549 -- 550
+551 [label="list" shape=rectangle]
+550 -- 551
+552 [label="." shape=rectangle]
+548 -- 552
+553 [label="functionCall"]
+548 -- 553
+554 [label="add" shape=rectangle]
+553 -- 554
+555 [label="(" shape=rectangle]
+553 -- 555
+556 [label="expressionList"]
+553 -- 556
+557 [label="expression"]
+556 -- 557
+558 [label="primary"]
+557 -- 558
+559 [label="literal"]
+558 -- 559
+560 [label="integerLiteral"]
+559 -- 560
+561 [label="5" shape=rectangle]
+560 -- 561
+562 [label=")" shape=rectangle]
+553 -- 562
+563 [label=";" shape=rectangle]
+547 -- 563
+564 [label="blockStatement"]
+1 -- 564
+565 [label="statement"]
+564 -- 565
+566 [label="expression"]
+565 -- 566
+567 [label="functionCall"]
+566 -- 567
+568 [label="println" shape=rectangle]
+567 -- 568
+569 [label="(" shape=rectangle]
+567 -- 569
+570 [label="expressionList"]
+567 -- 570
+571 [label="expression"]
+570 -- 571
+572 [label="primary"]
+571 -- 572
+573 [label="literal"]
+572 -- 573
+574 [label="\"original list:\"" shape=rectangle]
+573 -- 574
+575 [label=")" shape=rectangle]
+567 -- 575
+576 [label=";" shape=rectangle]
+565 -- 576
+577 [label="blockStatement"]
+1 -- 577
+578 [label="statement"]
+577 -- 578
+579 [label="expression"]
+578 -- 579
+580 [label="expression"]
+579 -- 580
+581 [label="primary"]
+580 -- 581
+582 [label="list" shape=rectangle]
+581 -- 582
+583 [label="." shape=rectangle]
+579 -- 583
+584 [label="functionCall"]
+579 -- 584
+585 [label="dump" shape=rectangle]
+584 -- 585
+586 [label="(" shape=rectangle]
+584 -- 586
+587 [label=")" shape=rectangle]
+584 -- 587
+588 [label=";" shape=rectangle]
+578 -- 588
+589 [label="blockStatement"]
+1 -- 589
+590 [label="statement"]
+589 -- 590
+591 [label="expression"]
+590 -- 591
+592 [label="functionCall"]
+591 -- 592
+593 [label="println" shape=rectangle]
+592 -- 593
+594 [label="(" shape=rectangle]
+592 -- 594
+595 [label=")" shape=rectangle]
+592 -- 595
+596 [label=";" shape=rectangle]
+590 -- 596
+597 [label="blockStatement"]
+1 -- 597
+598 [label="statement"]
+597 -- 598
+599 [label="expression"]
+598 -- 599
+600 [label="functionCall"]
+599 -- 600
+601 [label="println" shape=rectangle]
+600 -- 601
+602 [label="(" shape=rectangle]
+600 -- 602
+603 [label="expressionList"]
+600 -- 603
+604 [label="expression"]
+603 -- 604
+605 [label="primary"]
+604 -- 605
+606 [label="literal"]
+605 -- 606
+607 [label="\"add 1 to each element:\"" shape=rectangle]
+606 -- 607
+608 [label=")" shape=rectangle]
+600 -- 608
+609 [label=";" shape=rectangle]
+598 -- 609
+610 [label="blockStatement"]
+1 -- 610
+611 [label="variableDeclarators"]
+610 -- 611
+612 [label="typeType"]
+611 -- 612
+613 [label="classType"]
+612 -- 613
+614 [label="LinkedList" shape=rectangle]
+613 -- 614
+615 [label="variableDeclarator"]
+611 -- 615
+616 [label="variableDeclaratorId"]
+615 -- 616
+617 [label="list2" shape=rectangle]
+616 -- 617
+618 [label="=" shape=rectangle]
+615 -- 618
+619 [label="variableInitializer"]
+615 -- 619
+620 [label="expression"]
+619 -- 620
+621 [label="expression"]
+620 -- 621
+622 [label="primary"]
+621 -- 622
+623 [label="list" shape=rectangle]
+622 -- 623
+624 [label="." shape=rectangle]
+620 -- 624
+625 [label="functionCall"]
+620 -- 625
+626 [label="map" shape=rectangle]
+625 -- 626
+627 [label="(" shape=rectangle]
+625 -- 627
+628 [label="expressionList"]
+625 -- 628
+629 [label="expression"]
+628 -- 629
+630 [label="primary"]
+629 -- 630
+631 [label="addOne" shape=rectangle]
+630 -- 631
+632 [label=")" shape=rectangle]
+625 -- 632
+633 [label=";" shape=rectangle]
+610 -- 633
+634 [label="blockStatement"]
+1 -- 634
+635 [label="statement"]
+634 -- 635
+636 [label="expression"]
+635 -- 636
+637 [label="expression"]
+636 -- 637
+638 [label="primary"]
+637 -- 638
+639 [label="list2" shape=rectangle]
+638 -- 639
+640 [label="." shape=rectangle]
+636 -- 640
+641 [label="functionCall"]
+636 -- 641
+642 [label="dump" shape=rectangle]
+641 -- 642
+643 [label="(" shape=rectangle]
+641 -- 643
+644 [label=")" shape=rectangle]
+641 -- 644
+645 [label=";" shape=rectangle]
+635 -- 645
+646 [label="blockStatement"]
+1 -- 646
+647 [label="statement"]
+646 -- 647
+648 [label="expression"]
+647 -- 648
+649 [label="functionCall"]
+648 -- 649
+650 [label="println" shape=rectangle]
+649 -- 650
+651 [label="(" shape=rectangle]
+649 -- 651
+652 [label=")" shape=rectangle]
+649 -- 652
+653 [label=";" shape=rectangle]
+647 -- 653
+654 [label="blockStatement"]
+1 -- 654
+655 [label="statement"]
+654 -- 655
+656 [label="expression"]
+655 -- 656
+657 [label="functionCall"]
+656 -- 657
+658 [label="println" shape=rectangle]
+657 -- 658
+659 [label="(" shape=rectangle]
+657 -- 659
+660 [label="expressionList"]
+657 -- 660
+661 [label="expression"]
+660 -- 661
+662 [label="primary"]
+661 -- 662
+663 [label="literal"]
+662 -- 663
+664 [label="\"square of each element:\"" shape=rectangle]
+663 -- 664
+665 [label=")" shape=rectangle]
+657 -- 665
+666 [label=";" shape=rectangle]
+655 -- 666
+667 [label="blockStatement"]
+1 -- 667
+668 [label="variableDeclarators"]
+667 -- 668
+669 [label="typeType"]
+668 -- 669
+670 [label="classType"]
+669 -- 670
+671 [label="LinkedList" shape=rectangle]
+670 -- 671
+672 [label="variableDeclarator"]
+668 -- 672
+673 [label="variableDeclaratorId"]
+672 -- 673
+674 [label="list3" shape=rectangle]
+673 -- 674
+675 [label="=" shape=rectangle]
+672 -- 675
+676 [label="variableInitializer"]
+672 -- 676
+677 [label="expression"]
+676 -- 677
+678 [label="expression"]
+677 -- 678
+679 [label="primary"]
+678 -- 679
+680 [label="list" shape=rectangle]
+679 -- 680
+681 [label="." shape=rectangle]
+677 -- 681
+682 [label="functionCall"]
+677 -- 682
+683 [label="map" shape=rectangle]
+682 -- 683
+684 [label="(" shape=rectangle]
+682 -- 684
+685 [label="expressionList"]
+682 -- 685
+686 [label="expression"]
+685 -- 686
+687 [label="primary"]
+686 -- 687
+688 [label="square" shape=rectangle]
+687 -- 688
+689 [label=")" shape=rectangle]
+682 -- 689
+690 [label=";" shape=rectangle]
+667 -- 690
+691 [label="blockStatement"]
+1 -- 691
+692 [label="statement"]
+691 -- 692
+693 [label="expression"]
+692 -- 693
+694 [label="expression"]
+693 -- 694
+695 [label="primary"]
+694 -- 695
+696 [label="list3" shape=rectangle]
+695 -- 696
+697 [label="." shape=rectangle]
+693 -- 697
+698 [label="functionCall"]
+693 -- 698
+699 [label="dump" shape=rectangle]
+698 -- 699
+700 [label="(" shape=rectangle]
+698 -- 700
+701 [label=")" shape=rectangle]
+698 -- 701
+702 [label=";" shape=rectangle]
+692 -- 702
+13 [label="primitiveType\n(Integer)"]
+12 [label="typeType\n(Integer)"]
+16 [label="variableDeclaratorId\n(Integer)"]
+24 [label="classType\n(Class ListNode)"]
+23 [label="typeType\n(Class ListNode)"]
+27 [label="variableDeclaratorId\n(Class ListNode)"]
+39 [label="primitiveType\n(Integer)"]
+38 [label="typeType\n(Integer)"]
+72 [label="classType\n(Class ListNode)"]
+71 [label="typeType\n(Class ListNode)"]
+75 [label="variableDeclaratorId\n(Class ListNode)"]
+83 [label="classType\n(Class ListNode)"]
+82 [label="typeType\n(Class ListNode)"]
+86 [label="variableDeclaratorId\n(Class ListNode)"]
+92 [label="typeTypeOrVoid\n(void)"]
+100 [label="primitiveType\n(Integer)"]
+99 [label="typeType\n(Integer)"]
+112 [label="classType\n(Class ListNode)"]
+111 [label="typeType\n(Class ListNode)"]
+206 [label="typeTypeOrVoid\n(void)"]
+219 [label="classType\n(Class ListNode)"]
+218 [label="typeType\n(Class ListNode)"]
+285 [label="classType\n(Class LinkedList)"]
+284 [label="typeType\n(Class LinkedList)"]
+283 [label="typeTypeOrVoid\n(Class LinkedList)"]
+297 [label="primitiveType\n(Integer)"]
+296 [label="typeType\n(Integer)"]
+295 [label="typeTypeOrVoid\n(Integer)"]
+302 [label="primitiveType\n(Integer)"]
+301 [label="typeType\n(Integer)"]
+293 [label="functionType\n(Integer(Integer))"]
+292 [label="typeType\n(Integer(Integer))"]
+315 [label="classType\n(Class ListNode)"]
+314 [label="typeType\n(Class ListNode)"]
+329 [label="classType\n(Class LinkedList)"]
+328 [label="typeType\n(Class LinkedList)"]
+364 [label="primitiveType\n(Integer)"]
+363 [label="typeType\n(Integer)"]
+428 [label="primitiveType\n(Integer)"]
+427 [label="typeType\n(Integer)"]
+426 [label="typeTypeOrVoid\n(Integer)"]
+436 [label="primitiveType\n(Integer)"]
+435 [label="typeType\n(Integer)"]
+462 [label="primitiveType\n(Integer)"]
+461 [label="typeType\n(Integer)"]
+460 [label="typeTypeOrVoid\n(Integer)"]
+470 [label="primitiveType\n(Integer)"]
+469 [label="typeType\n(Integer)"]
+497 [label="classType\n(Class LinkedList)"]
+496 [label="typeType\n(Class LinkedList)"]
+613 [label="classType\n(Class LinkedList)"]
+612 [label="typeType\n(Class LinkedList)"]
+670 [label="classType\n(Class LinkedList)"]
+669 [label="typeType\n(Class LinkedList)"]
+52 [label="primary\n(Integer)"]
+51 [label="expression\n(Integer)"]
+56 [label="primary\n(Integer)"]
+55 [label="expression\n(Integer)"]
+50 [label="expression\n(Integer)"]
+115 [label="variableDeclaratorId\n(Class ListNode)"]
+125 [label="primary\n(Integer)"]
+124 [label="expression\n(Integer)"]
+120 [label="functionCall\n(Class ListNode)"]
+119 [label="expression\n(Class ListNode)"]
+118 [label="variableInitializer\n(Class ListNode)"]
+136 [label="primary\n(Class ListNode)"]
+135 [label="expression\n(Class ListNode)"]
+141 [label="literal\n(null)"]
+140 [label="primary\n(null)"]
+139 [label="expression\n(null)"]
+134 [label="expression\n(Boolean)"]
+152 [label="primary\n(Class ListNode)"]
+151 [label="expression\n(Class ListNode)"]
+156 [label="primary\n(Class ListNode)"]
+155 [label="expression\n(Class ListNode)"]
+150 [label="expression\n(Class ListNode)"]
+163 [label="primary\n(Class ListNode)"]
+162 [label="expression\n(Class ListNode)"]
+167 [label="primary\n(Class ListNode)"]
+166 [label="expression\n(Class ListNode)"]
+161 [label="expression\n(Class ListNode)"]
+181 [label="primary\n(Class ListNode)"]
+180 [label="expression\n(Class ListNode)"]
+179 [label="expression\n(Class ListNode)"]
+187 [label="primary\n(Class ListNode)"]
+186 [label="expression\n(Class ListNode)"]
+178 [label="expression\n(Class ListNode)"]
+194 [label="primary\n(Class ListNode)"]
+193 [label="expression\n(Class ListNode)"]
+198 [label="primary\n(Class ListNode)"]
+197 [label="expression\n(Class ListNode)"]
+192 [label="expression\n(Class ListNode)"]
+222 [label="variableDeclaratorId\n(Class ListNode)"]
+227 [label="primary\n(Class ListNode)"]
+226 [label="expression\n(Class ListNode)"]
+225 [label="variableInitializer\n(Class ListNode)"]
+237 [label="primary\n(Class ListNode)"]
+236 [label="expression\n(Class ListNode)"]
+242 [label="literal\n(null)"]
+241 [label="primary\n(null)"]
+240 [label="expression\n(null)"]
+235 [label="expression\n(Boolean)"]
+258 [label="primary\n(Class ListNode)"]
+257 [label="expression\n(Class ListNode)"]
+256 [label="expression\n(Integer)"]
+268 [label="primary\n(Class ListNode)"]
+267 [label="expression\n(Class ListNode)"]
+273 [label="primary\n(Class ListNode)"]
+272 [label="expression\n(Class ListNode)"]
+271 [label="expression\n(Class ListNode)"]
+266 [label="expression\n(Class ListNode)"]
+318 [label="variableDeclaratorId\n(Class ListNode)"]
+323 [label="primary\n(Class ListNode)"]
+322 [label="expression\n(Class ListNode)"]
+321 [label="variableInitializer\n(Class ListNode)"]
+332 [label="variableDeclaratorId\n(Class LinkedList)"]
+337 [label="functionCall\n(Class LinkedList)"]
+336 [label="expression\n(Class LinkedList)"]
+335 [label="variableInitializer\n(Class LinkedList)"]
+349 [label="primary\n(Class ListNode)"]
+348 [label="expression\n(Class ListNode)"]
+354 [label="literal\n(null)"]
+353 [label="primary\n(null)"]
+352 [label="expression\n(null)"]
+347 [label="expression\n(Boolean)"]
+367 [label="variableDeclaratorId\n(Integer)"]
+378 [label="primary\n(Class ListNode)"]
+377 [label="expression\n(Class ListNode)"]
+376 [label="expression\n(Integer)"]
+372 [label="functionCall\n(Integer)"]
+371 [label="expression\n(Integer)"]
+370 [label="variableInitializer\n(Integer)"]
+388 [label="primary\n(Class LinkedList)"]
+387 [label="expression\n(Class LinkedList)"]
+396 [label="primary\n(Integer)"]
+395 [label="expression\n(Integer)"]
+391 [label="functionCall\n(void)"]
+386 [label="expression\n(void)"]
+404 [label="primary\n(Class ListNode)"]
+403 [label="expression\n(Class ListNode)"]
+409 [label="primary\n(Class ListNode)"]
+408 [label="expression\n(Class ListNode)"]
+407 [label="expression\n(Class ListNode)"]
+402 [label="expression\n(Class ListNode)"]
+419 [label="primary\n(Class LinkedList)"]
+418 [label="expression\n(Class LinkedList)"]
+450 [label="primary\n(Integer)"]
+449 [label="expression\n(Integer)"]
+454 [label="primary\n(Integer)"]
+453 [label="expression\n(Integer)"]
+448 [label="expression\n(Integer)"]
+484 [label="primary\n(Integer)"]
+483 [label="expression\n(Integer)"]
+489 [label="literal\n(Integer)"]
+488 [label="primary\n(Integer)"]
+487 [label="expression\n(Integer)"]
+482 [label="expression\n(Integer)"]
+500 [label="variableDeclaratorId\n(Class LinkedList)"]
+505 [label="functionCall\n(Class LinkedList)"]
+504 [label="expression\n(Class LinkedList)"]
+503 [label="variableInitializer\n(Class LinkedList)"]
+514 [label="primary\n(Class LinkedList)"]
+513 [label="expression\n(Class LinkedList)"]
+523 [label="literal\n(Integer)"]
+522 [label="primary\n(Integer)"]
+521 [label="expression\n(Integer)"]
+517 [label="functionCall\n(void)"]
+512 [label="expression\n(void)"]
+532 [label="primary\n(Class LinkedList)"]
+531 [label="expression\n(Class LinkedList)"]
+541 [label="literal\n(Integer)"]
+540 [label="primary\n(Integer)"]
+539 [label="expression\n(Integer)"]
+535 [label="functionCall\n(void)"]
+530 [label="expression\n(void)"]
+550 [label="primary\n(Class LinkedList)"]
+549 [label="expression\n(Class LinkedList)"]
+559 [label="literal\n(Integer)"]
+558 [label="primary\n(Integer)"]
+557 [label="expression\n(Integer)"]
+553 [label="functionCall\n(void)"]
+548 [label="expression\n(void)"]
+573 [label="literal\n(String)"]
+572 [label="primary\n(String)"]
+571 [label="expression\n(String)"]
+581 [label="primary\n(Class LinkedList)"]
+580 [label="expression\n(Class LinkedList)"]
+584 [label="functionCall\n(void)"]
+579 [label="expression\n(void)"]
+606 [label="literal\n(String)"]
+605 [label="primary\n(String)"]
+604 [label="expression\n(String)"]
+616 [label="variableDeclaratorId\n(Class LinkedList)"]
+622 [label="primary\n(Class LinkedList)"]
+621 [label="expression\n(Class LinkedList)"]
+630 [label="primary\n(Integer addOne(Integer))"]
+629 [label="expression\n(Integer addOne(Integer))"]
+625 [label="functionCall\n(Class LinkedList)"]
+620 [label="expression\n(Class LinkedList)"]
+619 [label="variableInitializer\n(Class LinkedList)"]
+638 [label="primary\n(Class LinkedList)"]
+637 [label="expression\n(Class LinkedList)"]
+641 [label="functionCall\n(void)"]
+636 [label="expression\n(void)"]
+663 [label="literal\n(String)"]
+662 [label="primary\n(String)"]
+661 [label="expression\n(String)"]
+673 [label="variableDeclaratorId\n(Class LinkedList)"]
+679 [label="primary\n(Class LinkedList)"]
+678 [label="expression\n(Class LinkedList)"]
+687 [label="primary\n(Integer square(Integer))"]
+686 [label="expression\n(Integer square(Integer))"]
+682 [label="functionCall\n(Class LinkedList)"]
+677 [label="expression\n(Class LinkedList)"]
+676 [label="variableInitializer\n(Class LinkedList)"]
+695 [label="primary\n(Class LinkedList)"]
+694 [label="expression\n(Class LinkedList)"]
+698 [label="functionCall\n(void)"]
+693 [label="expression\n(void)"]
+}
